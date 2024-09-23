@@ -46,3 +46,17 @@ let y = x--
 //console.log(undefined > 0)
 //console.log(undefined == 0)
 //console.log(undefined >= 0)
+// stack[primitive] , heap[non primitive]
+let myName= "AMNA NOOR"
+let anotherName=myName
+anotherName="SAJAL"
+console.log(myName);
+console.log(anotherName)
+let userone={
+    email:"user@gmail.com",
+    upi:"hgs@ypl"
+}
+let usertwo=userone
+usertwo.email="usernot@gmail"
+console.log(userone.email);
+console.log(usertwo.email);
